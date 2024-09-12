@@ -1,0 +1,81 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, #101213, #1c1f21);
+    color: #ffffff;
+    padding-top: 20px;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #ed195c;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 10px;
+}
+
+.intro {
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #1c1f21;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: calc(33.33% - 40px);
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.card:hover {
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #101213;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    color: #888888;
+    font-size: 0.9em;
+}
