@@ -33,6 +33,7 @@
 
     --branco: #fff;
     --preto: #000;
+    --radio-gradient-roxo: linear-gradient(142deg, rgba(150,96,228,1) 0%, rgba(150,96,228,1) 20%, rgba(86,4,200,1) 49%);
 }
 
 h1 {
@@ -114,7 +115,7 @@ line-height: 24px; /* 133.333% */
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 125% */
+    line-height: 150%;
 }
 
 .body-small {
@@ -185,7 +186,171 @@ line-height: 24px; /* 133.333% */
     text-transform: uppercase;
 }
 
+.btn {
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 28px;
+    border: 1px solid var(--roxo-400);
+    background: var(--radio-gradient-roxo);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 100%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    color: var(--branco);
+}
 
+.btn:hover {
+    opacity: 60%;
+}
+
+.btn-outline {
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 28px;
+    border: 1px solid var(--roxo-400);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 100%;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    color: var(--branco);
+}
+
+.btn-outline:hover {
+    opacity: 60%;
+}
+
+/* ----------- CSS DANIEL -----------  */
+
+.section-jogos-imperdiveis {
+    width: 80vw;
+    max-width: 1225px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    gap: 48px;
+    margin: 75px auto;
+}
+
+.section-jogos-imperdiveis h3 {
+    color: var(--branco);
+}
+
+.container-jogos-imperdiveis {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    align-self: stretch;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.card-jogos-imperdiveis {
+    display: flex;
+    height: 544px;
+    width: 344px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 40px;
+    flex: 1 0 0;
+    border-radius: 15px;
+    border: 1px solid var(--roxo-200);
+    background: radial-gradient(1067.85% 316.35% at 115.5% 253.33%, rgba(194, 160, 248, 0.08) 0%, rgba(86, 4, 200, 0.08) 100%);
+}
+
+.content-card-jogos-imperdiveis {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.text-card-jogos-imperdiveis . {
+display: flex;
+flex-direction: column;
+gap: 24px;
+}
+
+.titulo-e-dev-jogos-imperdiveis {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.titulo-e-dev-jogos-imperdiveis .body-small {
+    color: var(--cinza-200);
+    padding-bottom: 12px;
+}
+
+
+.botoes-jogos-imperdiveis {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-card-jogos-imperdiveis .tag-regular {
+    color: var(--verde-500);
+    padding-bottom: 12px;
+}
+
+.text-card-jogos-imperdiveis p {
+    color: var(--branco);
+}
+
+.tags-jogos-imperdiveis {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    color: var(--roxo-300);
+    padding: 12px 0px;
+}
+.tags-jogos-imperdiveis p {
+    color: var(--roxo-200);
+}
+
+.section-melhor-jogo-da-semana {
+    display: flex;
+    width: 80vw;
+    max-width: 1225px;
+    min-height: 600px;
+    align-items: center;
+    background-image: url(../images/section-melhor-jogo-da-semana.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: solid 1px var(--roxo-200);
+    padding: 0 60px;
+    color: var(--branco);
+}
+
+.content-melhor-jogo-da-semana {
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.text-descricao-melhor-jogo-da-semana {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    gap: 32px;
+
+}
+
+.botoes-melhor-jogo-da-semana {
+    display: flex;
+    gap: 12px;
+}
 body {
     background-color: #0E002F;
     margin: 0;
