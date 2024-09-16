@@ -391,12 +391,12 @@ nav ul li a, .right-nav a {
 }
 
 .btn-envio {
-    border: 1px solid white;
-    border-radius: 20px;
+    border: 1px solid #8441F1;
+    border-radius: 18px;
+    width: 10px;
 }
 
 .hero {
-    position: relative;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -436,15 +436,15 @@ nav ul li a, .right-nav a {
 
 .btn-primary, .btn-secondary {
     padding: 15px 30px;
-    border-radius: 30px;
+    border-radius: 28px;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 15px;
 }
 
 .btn-primary {
-    background-color: linear-gradiente();
+    background-color: var(--verde-400);
     color: #fff;
-
+    border: 1px solid #fff;
 }
 
 .btn-secondary {
@@ -454,14 +454,16 @@ nav ul li a, .right-nav a {
 
 .hero-image {
     position: absolute;
-    right: -530px;
+    right: -570px;
     bottom: 0;
     z-index: 2;
 }
 
 .hero-image img {
-    max-width: 1300px;
-    height: auto;
+    width: 91%;
+    max-height: 900px;
+    background-color: #569900;
+
 }
 
 .menufooter {
