@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: 'inter', sans-serif;
 }
+
+body {
+    background-color: #0E002F;
+}
+
 :root {
     --roxo-800: #0E002F;
     --roxo-700: #340576;
@@ -452,11 +457,22 @@ nav ul li a, .right-nav a {
 }
 
 .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.fundo {
+    width: 100%;
+    height: 900px;
+    background-image: url(../images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
 }
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
+<<<<<<< HEAD
 .btn-primary, .btn-secondary {
     padding: 10px 24px;
     border-radius: 28px;
@@ -470,15 +486,61 @@ nav ul li a, .right-nav a {
 
 .btn-primary {
     background: radial-gradient(411.63% 327.45% at 104.57% 158.33%, #81E500 0%, #477F00 100%);
+=======
+nav {
+    width: 80%;
+    height: 62px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    border: 1px solid var(--roxo-200);
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color: transparent;
+}
+
+nav ul li {
+    padding: 0px 40px ;
+    background-color: transparent;
+}
+
+nav ul li a {
+    text-decoration: none;
+>>>>>>> d94ed8ef226b883b735d7bfc5af9cd6b3eb530db
     color: #fff;
-    border: 1px solid var(--verde-200);
+    background-color: transparent;
 }
 
-.btn-secondary {
-    border: 1px solid var(--verde-200);
+nav img {
+    background-color: transparent;
+}
+
+.btn_enviar_jogo {
+    border: 1px solid var(--roxo-200);
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgba(150,96,228,1);
+}
+
+.inicio_textos {
     color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: transparent;
+    
 }
 
+<<<<<<< HEAD
 .hero-image {
     position: absolute;
     right: -480px;
@@ -489,7 +551,44 @@ nav ul li a, .right-nav a {
 .hero-image img {
     width: 90%;
     max-height: 900px;
+=======
+.inicio_textos h1 {
+    width: 45%;
+    background-color: transparent;
 }
+
+.inicio_textos p {
+    display: flex;
+    justify-content: center;    
+    width: 30%;
+    background-color: transparent;
+>>>>>>> d94ed8ef226b883b735d7bfc5af9cd6b3eb530db
+}
+
+
+.btns_inicio_textos {
+    background-color: transparent;
+}
+
+.btn_jogar {
+    border: 1px solid var(--verde-200);
+    background-color: var(--verde-500);
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px;
+}
+
+.btn_enviar {
+    border: 1px solid var(--verde-200);
+    background-color: transparent;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #fff; 
+    padding: 10px;
+}
+
+/* ----------------------- FINAL DO CSS DO MAHER ---------------------------  */
 
 .menufooter {
     color: #E0D0FB; 
