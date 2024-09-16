@@ -251,7 +251,7 @@ line-height: 24px; /* 133.333% */
 
 .card-jogos-imperdiveis {
     display: flex;
-    height: 544px;
+    height: 100%;
     width: 344px;
     padding: 24px;
     flex-direction: column;
@@ -261,6 +261,11 @@ line-height: 24px; /* 133.333% */
     border-radius: 15px;
     border: 1px solid var(--roxo-200);
     background: radial-gradient(1067.85% 316.35% at 115.5% 253.33%, rgba(194, 160, 248, 0.08) 0%, rgba(86, 4, 200, 0.08) 100%);
+}
+
+.card-jogos-imperdiveis img {
+width: 100%;
+overflow: hidden;
 }
 
 .content-card-jogos-imperdiveis {
@@ -361,26 +366,29 @@ body {
     overflow-x: hidden;
 }
 
-nav{
+nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
-    background: transparent;
     border: 1px solid var(--roxo-200);
-    border-radius: 20px;
-    width: 90%;
-    background-color: transparent;
-    margin: 20px 0 0 100px;
+    border-radius: 15px;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px); 
+    margin: 0 auto;
 }
 
 nav ul {
     display: flex;
     list-style: none;
+    font-size: 14px;
 }
 
 nav ul li {
     margin-right: 20px;
+    font-size: 14px;
 }
 
 nav ul li a, .right-nav a {
@@ -392,6 +400,7 @@ nav ul li a, .right-nav a {
 .right-nav a {
     margin-left: 20px;
     padding: 10px 20px;
+    font-size: 14px;
 }
 
 .btn-envio {
@@ -401,14 +410,25 @@ nav ul li a, .right-nav a {
     background-color: #8441F1;
 }
 
-.hero {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    background-image: url('../images/image-hero.png'); 
+.header {
+    background-image: url('../images/image-hero.png');
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 95vh;
+    display: flex;
+    padding-top: 24px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    flex-direction: column;
+}
+
+
+.hero {
+    display: flex;
+    height: 100%;
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
 }
 
@@ -422,7 +442,7 @@ nav ul li a, .right-nav a {
 
 .hero-text h1 {
     font-size: 5em;
-    line-height: 1.2;
+    line-height: 100%;
     margin-bottom: 20px;
 }
 
@@ -438,14 +458,18 @@ nav ul li a, .right-nav a {
 }
 
 .btn-primary, .btn-secondary {
-    padding: 15px 30px;
+    padding: 10px 24px;
     border-radius: 28px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: 100%;
+    letter-spacing: 0.72px;
 }
 
 .btn-primary {
-    background-color: var(--verde-400);
+    background: radial-gradient(411.63% 327.45% at 104.57% 158.33%, #81E500 0%, #477F00 100%);
     color: #fff;
     border: 1px solid var(--verde-200);
 }
@@ -457,16 +481,14 @@ nav ul li a, .right-nav a {
 
 .hero-image {
     position: absolute;
-    right: -570px;
-    bottom: 0;
+    right: -480px;
+    bottom: 40px;
     z-index: 2;
 }
 
 .hero-image img {
-    width: 91%;
-    max-height: 1000px;
-
-
+    width: 90%;
+    max-height: 900px;
 }
 
 .menufooter {
@@ -481,7 +503,7 @@ nav ul li a, .right-nav a {
 
 .menutitulo {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Inter; 
     font-weight: 700; 
     line-height: 20px; 
@@ -612,8 +634,9 @@ nav ul li a, .right-nav a {
 }
 
 .footerboxgeral {
-    width: 1440px; 
-    height: 392px;; 
+    width: 100%; 
+    height: 392px;
+    margin-top: 62px;
     background: #5604C8; 
     flex-direction: column; 
     justify-content: center; 
