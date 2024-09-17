@@ -616,3 +616,231 @@ nav ul li a, .right-nav a {
     gap: 10px; 
     display: inline-flex;
 }
+
+.jogar {
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    line-height: 16px; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word
+}
+
+.btnsmall {
+    padding-left: 12px; 
+    padding-right: 12px; 
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+    background: linear-gradient(0deg, #8441F1 0%, #8441F1 100%), 
+    radial-gradient(31.75% 9.40% at 44.79% 5.27%, #C2A0F8 0%, #5604C8 100%); 
+    border-radius: 28px; 
+    border: 1px #A371F4 solid;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: flex;
+    text-decoration: none;
+    color: #e6e6e6;
+}
+
+.fonte3 {
+    color: #E6E6E6; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    text-transform: uppercase;
+    line-height: 16px; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+}
+
+.fonte2 {
+    text-align: center; 
+    color: #E6E6E6; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 600; 
+    text-transform: uppercase; 
+    word-wrap: break-word;
+}
+
+.fonte1 {
+    text-align: center; 
+    color: #E6E6E6; 
+    font-size: 12px; 
+    font-family: Inter; 
+    font-weight: 500; 
+    text-transform: uppercase; 
+    line-height: 16px; 
+    letter-spacing: 0.72px; 
+    word-wrap: break-word;
+}
+
+.tipojogo {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+}
+
+.desenvolvido {
+    align-self: stretch; 
+    color: #999999; 
+    font-size: 14px; 
+    font-family: Inter; 
+    font-weight: 400; 
+    line-height: 18px; 
+    word-wrap: break-word;
+
+}
+
+.nomejogo {
+    align-self: stretch; 
+    color: white; 
+    font-size: 18px; 
+    font-family: Inter; 
+    font-weight: 700; 
+    line-height: 24px; 
+    word-wrap: break-word;
+}
+
+.nomejogo1 {
+    height: 13px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 12px;
+    display: flex;
+}
+
+.containerjogo1 {
+    align-self: stretch;
+    height: 35px; 
+    flex-direction: 
+    column; justify-content: 
+    flex-start; align-items: 
+    flex-start; 
+    gap: 12px; 
+    display: flex;
+}
+
+.containerjogo {
+    align-self: stretch; 
+    height: 35px; 
+    flex-direction: 
+    column; justify-content: 
+    flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: flex;
+}
+
+.containeralinha {
+    width: 282px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 18px; 
+    display: inline-flex;
+}
+
+.retangle1 {
+    width: 64px; 
+    height: 64px; 
+    border-radius: 8px;
+}
+
+.conteudojogo {
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 24px; 
+    display: flex;
+}
+
+.classificacaojogo {
+    color: #A371F4; 
+    font-size: 24px; 
+    font-family: Jersey 10; 
+    font-weight: 400; 
+    line-height:29px; 
+    letter-spacing:0.48px; 
+    word-wrap:break-word;
+}
+
+.linhajogos {
+    align-self: stretch; 
+    padding: 24px; 
+    border-bottom: 1px #A371F4 solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 42px; 
+    display: inline-flex;
+}
+
+.conteudojogosup {
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 24px; 
+    display: flex;
+}
+
+.favoritosright {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}
+
+.linhajogos1 {
+    align-self: stretch; 
+    padding: 24px; 
+    border-bottom: 1px #A371F4 solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 42px; 
+    display: inline-flex;
+}
+
+.coluna1 {
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    display: inline-flex;
+}
+
+.coluna {
+    align-self: stretch; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 64px; 
+    display: inline-flex;
+}
+
+.brbrasil {
+    color: white; 
+    font-size: 54px; 
+    font-family: Jersey 10; 
+    font-weight: 400; 
+    line-height: 50px; 
+    word-wrap: break-word;
+}
+
+.favoritosdosbrasileiros {
+    align-self: stretch;
+
+}
+
+.favoritosdosbrasileiros3 {
+
+    width: 100%;
+    height: 750px;
+    margin-left: 50px;
+    flex-direction: column; 
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    gap: 48px; 
+    display: inline-flex;
+}
+
