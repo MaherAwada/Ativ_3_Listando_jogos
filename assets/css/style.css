@@ -743,3 +743,11 @@ nav img {
     gap: 10px; 
     display: inline-flex;
 }
+
+/* ----------------------- COMEÇO DO CSS DO EMANUEL ---------------------------  */
+
+.section-quem-sao{
+    display: flex;
+    flex-direction: column;
+    color: #000;
+}
